@@ -6,45 +6,75 @@
 
 </p>
 
-<p align="center">
-    preview do podcast
-</p>
-
-<div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
-</div>
-
-# Projeto Podcast Gerado por I.A.s
+# Projeto Vending Machine (AFD)
 
 
- > ℹ️ **NOTE:** Este documento foi criado a partir do roteiro do Episódio 1 — "O que é, afinal, a IA Generativa?" — e estrutura o projeto para reprodução automática usando ferramentas de IA.
+ > ℹ️ **NOTE:** Este documento foi estruturado a partir da documentação do projeto “Vending Machine (Case 1)”, com o objetivo de organizar e facilitar a compreensão e reprodução do sistema baseado em Autômato Finito Determinístico (AFD).
 
-Projeto com o objetivo de criar um episódio piloto de podcast (≈5 minutos) totalmente gerado com auxílio de IA, usando uma esteira de prompts para automatizar as etapas criativas: roteiro, voz, capa e edição.
+Projeto com o objetivo de modelar e simular o funcionamento de uma máquina de venda automática de doces, utilizando conceitos de Teoria da Computação e Linguagens Formais, com foco em estados, transições e validações determinísticas.
 
 
 ## 💻 Tecnologias utilizadas no projeto
 
-- [ChatGPT](https://chat.openai.com/) 
-- [Gemini](https://gemini.google.com/?hl=pt-BR)
-- [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
+- Java (ou linguagem utilizada na implementação)
+- Conceitos de Autômatos Finitos Determinísticos (AFD)
+- Interface gráfica 
+- Lógica de programação estruturada
 
 
 ## ✨ Como foi feito ?
 
-- Roteiro gerado via ChatGPT: estrutura de abertura, diálogo entre dois apresentadores (Ana e Lucas), partes conceituais e chamadas finais.
-- Vozes: prompts para ElevenLabs usando a conversão do roteiro em falas, com marcações de entonação e pausas.
-- Artes: prompts para Gemini para gerar capas (várias variações).
-- Edição: importação do áudio sintetizado no CapCut para equalização, adição de trilha sonora e cortes finais.
+Modelagem do sistema:
+- Definição formal de um AFD com estados, alfabeto, estado inicial e estados finais.
+
+Definição de estados:
+- Foram criados estados representando cada etapa do processo:
+- Inserção de dinheiro
+- Seleção de produto
+- Confirmação
+- Processamento
+- Entrega
+- Finalização ou cancelamento
+
+Transições:
+- Implementação das regras determinísticas que controlam o fluxo da máquina, garantindo que o sistema nunca entre em estados inválidos.
+
+Interface:
+- Desenvolvimento de elementos visuais como:
+- Display de status (LED simulado)
+- Feedback de seleção
+- Indicação de produtos disponíveis
+- Simulação da entrega do produto
+
+Validações:
+- Controle de:
+- Saldo do usuário
+- Disponibilidade de estoque
+- Cancelamento da operação
+- Devolução de troco
 
 
 ## 🛠️ Instruções de execução
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+- 🤖 1. Inicialização do sistema
+Inicie o programa — a máquina começará no estado inicial (Q0), aguardando inserção de dinheiro.
+- 🤖 2. Inserção de dinheiro
+Adicione valores permitidos (R$1, R$2 ou R$5), acumulando saldo.
+- 🤖 3. Seleção do produto
+Escolha um item disponível através do código correspondente.
+- 🤖 4. Confirmação da compra
+Confirme a operação para que o sistema valide saldo e estoque.
+- 🤖 5. Processamento
+Se válido → produto será entregue
+Se inválido → operação finalizada com erro
+- 🤖 6. Finalização
+Após entrega ou cancelamento, o sistema retorna automaticamente ao estado inicial.
 
-- 🤖 1. Use os prompts de roteiro para geração do roteiro `ChatGPT`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt para gerar a síntese de voz no `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `Gemini`
+
+## 📌 Considerações finais
+
+Este projeto demonstra na prática a aplicação de Autômatos Finitos Determinísticos, garantindo controle rigoroso de estados e transições. A modelagem assegura que todas as operações da máquina sejam previsíveis, seguras e consistentes, simulando fielmente o comportamento de uma vending machine real.
+
 
 ## 👨‍💻 Expert
 

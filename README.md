@@ -103,10 +103,10 @@ Este projeto demonstra na prática a aplicação de Autômatos Finitos Determin�
 </p>
 
 <p>
-    <p>&nbsp&nbsp&nbspRuan Luz<br>
+    <p>&nbsp&nbsp&nbspMariana Cardoso<br>
     &nbsp&nbsp&nbsp
     <a 
-        href="https://www.linkedin.com/in/ruanviniciusluz/">
+        href="https://www.linkedin.com/in/marianacbrand%C3%A3o/">
         LinkedIn
     </a>
 </p>

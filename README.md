@@ -97,11 +97,6 @@ Este projeto demonstra na prática a aplicação de Autômatos Finitos Determin�
     <p>&nbsp&nbsp&nbspNatália Brediks<br>
     &nbsp&nbsp&nbsp
     <a 
-        href="https://github.com/JujuBene">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
         href="https://www.linkedin.com/in/natalia-brediks-miltus-marques/">
         LinkedIn
     </a>

@@ -100,7 +100,33 @@ Este projeto demonstra na prática a aplicação de Autômatos Finitos Determin�
         href="https://www.linkedin.com/in/natalia-brediks-miltus-marques/">
         LinkedIn
     </a>
-   
+</p>
+
+<p>
+    <p>&nbsp&nbsp&nbspRuan Luz<br>
+    &nbsp&nbsp&nbsp
+    <a 
+        href="https://www.linkedin.com/in/ruanviniciusluz/">
+        LinkedIn
+    </a>
+</p>
+
+<p>
+    <p>&nbsp&nbsp&nbspRuan Luz<br>
+    &nbsp&nbsp&nbsp
+    <a 
+        href="https://www.linkedin.com/in/ruanviniciusluz/">
+        LinkedIn
+    </a>
+</p>
+
+<p>
+    <p>&nbsp&nbsp&nbspCaio Camargo<br>
+    &nbsp&nbsp&nbsp
+    <a 
+        href="https://www.linkedin.com/in/caio-camargo-049777313/">
+        LinkedIn
+    </a>
 </p>
 <br/><br/>
 <p>

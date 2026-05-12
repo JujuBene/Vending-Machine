@@ -90,8 +90,21 @@ Este projeto demonstra na prática a aplicação de Autômatos Finitos Determin�
         href="https://www.linkedin.com/in/juliana-magiero-benedetti/">
         LinkedIn
     </a>
- 
    
+</p>
+
+<p>
+    <p>&nbsp&nbsp&nbspNatália Brediks<br>
+    &nbsp&nbsp&nbsp
+    <a 
+        href="https://github.com/JujuBene">
+        GitHub
+    </a>
+    &nbsp;|&nbsp;
+    <a 
+        href="https://www.linkedin.com/in/natalia-brediks-miltus-marques/">
+        LinkedIn
+    </a>
    
 </p>
 <br/><br/>
